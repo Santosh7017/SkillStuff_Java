@@ -34,7 +34,7 @@ public class firstQuestions {
                 System.out.println("Entered character is constant");
         } */
         int marks = sc.nextInt();
-        75
+
         if(marks >90){
             System.out.println("Your is grade is A");
             System.out.println("Perfomance: Excellent");
