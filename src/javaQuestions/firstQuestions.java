@@ -6,7 +6,7 @@ public class firstQuestions {
     public static void main(String args[]){
         // 1
       Scanner sc = new Scanner(System.in);
-    /* int number = sc.nextInt();
+    int number = sc.nextInt();
     if((number > 100 ) && (number<500)){
         if (number%2 == 0){
             System.out.println("Entered no. is even");
@@ -17,10 +17,10 @@ public class firstQuestions {
         System.out.println("No. is smaller than ");
     }else {
         System.out.println("No. is gretor than 500");
-    } */
+    } 
 
         //2
-        /* System.out.print("Enter the character: ");
+        System.out.print("Enter the character: ");
         char c = sc.next().charAt(0);
         switch (c){
             case 'a':
@@ -32,7 +32,7 @@ public class firstQuestions {
                 break;
             default:
                 System.out.println("Entered character is constant");
-        } */
+        } 
         int marks = sc.nextInt();
 
         if(marks >90){
