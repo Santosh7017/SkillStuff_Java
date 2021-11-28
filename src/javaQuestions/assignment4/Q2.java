@@ -26,14 +26,19 @@ public class Q2 {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter the name of student: ");
+
         String name = sc.nextLine();
         System.out.println("Enter the course: ");
+
         String course = sc.nextLine();
         System.out.println("Enter the date of birth [Date of birth should be in (dd/mm/yy) format: ");
+
         String dob = sc.nextLine();
         System.out.println("Enter the age of student: ");
+
         int age = sc.nextInt();
         System.out.println("Enter the marks: ");
+
         int marks = sc.nextInt();
         Q2 obj = new Q2(name,course,dob,age,marks);
 
