@@ -10,7 +10,10 @@ public class Q2 {
     private String name,course,dob;
     private int age, marks;
 
-    public Q2(String name, String course, String dob, int age, int marks) {
+
+
+    public Q2(String name, String course, String dob, int age, int marks)
+    {
         this.name = name;
         this.course = course;
         this.dob = dob;
